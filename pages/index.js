@@ -1,14 +1,6 @@
 import Head from "next/head";
 
-import {
-  Header,
-  Hero,
-  Benefits,
-  Facilities,
-  Leader,
-  Cta,
-  Footer,
-} from "../components";
+import { Hero, Benefits, Facilities, Leader, Cta, Footer } from "../components";
 
 export default function Home() {
   return (
@@ -23,7 +15,6 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header />
         <Hero />
         <Benefits />
         <Facilities />
