@@ -14,17 +14,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
+      <main className="w-screen h-screen overflow-x-hidden overflow-scroll scroll-smooth snap snap-y snap-mandatory">
         <Hero />
         <Benefits />
         <Facilities />
         <Leader />
         <Cta />
-      </main>
-
-      <footer>
         <Footer />
-      </footer>
+      </main>
     </div>
   );
 }
